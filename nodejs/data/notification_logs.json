@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1770541200124,
+    "userId": 1,
+    "title": "Nutrition Tip 💡",
+    "body": "Choose whole fruits over fruit juice for more fiber.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-08T09:00:00.088Z",
+      "tip": "Choose whole fruits over fruit juice for more fiber.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-08T09:00:00.092Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T09:00:00.125Z"
+  },
+  {
+    "id": 1770541200160,
+    "userId": 2,
+    "title": "Nutrition Tip 💡",
+    "body": "Choose whole fruits over fruit juice for more fiber.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-08T09:00:00.143Z",
+      "tip": "Choose whole fruits over fruit juice for more fiber.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-08T09:00:00.157Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T09:00:00.160Z"
+  },
+  {
+    "id": 1770544800663,
+    "userId": 1,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T10:00:00.656Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T10:00:00.659Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T10:00:00.663Z"
+  },
+  {
+    "id": 1770544800785,
+    "userId": 2,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T10:00:00.702Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T10:00:00.754Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T10:00:00.785Z"
+  },
+  {
+    "id": 1770544800856,
+    "userId": 1770541930580,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T10:00:00.792Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T10:00:00.853Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T10:00:00.856Z"
+  },
+  {
+    "id": 1770580800044,
+    "userId": 1,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T20:00:00.016Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T20:00:00.027Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T20:00:00.044Z"
+  },
+  {
+    "id": 1770580800166,
+    "userId": 2,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T20:00:00.138Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T20:00:00.160Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T20:00:00.166Z"
+  },
+  {
+    "id": 1770580800215,
+    "userId": 1770541930580,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T20:00:00.187Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T20:00:00.202Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T20:00:00.215Z"
+  },
+  {
+    "id": 1770580800243,
+    "userId": 1770578642926,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T20:00:00.232Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T20:00:00.236Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T20:00:00.243Z"
+  },
+  {
+    "id": 1770580800281,
+    "userId": 1770579416440,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-08T20:00:00.251Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-08T20:00:00.267Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-08T20:00:00.281Z"
+  },
+  {
+    "id": 1770667200457,
+    "userId": 1,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.449Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.453Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.457Z"
+  },
+  {
+    "id": 1770667200497,
+    "userId": 2,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.469Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.494Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.497Z"
+  },
+  {
+    "id": 1770667200518,
+    "userId": 1770541930580,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.508Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.515Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.518Z"
+  },
+  {
+    "id": 1770667200527,
+    "userId": 1770578642926,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.522Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.524Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.527Z"
+  },
+  {
+    "id": 1770667200539,
+    "userId": 1770579416440,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.531Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.533Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.539Z"
+  },
+  {
+    "id": 1770667200560,
+    "userId": 1770666141866,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-09T20:00:00.544Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-09T20:00:00.557Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-09T20:00:00.560Z"
+  },
+  {
+    "id": 1770710400371,
+    "userId": 1,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-10T08:00:00.358Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-10T08:00:00.363Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T08:00:00.371Z"
+  },
+  {
+    "id": 1770710400401,
+    "userId": 2,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-10T08:00:00.390Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-10T08:00:00.397Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T08:00:00.401Z"
+  },
+  {
+    "id": 1770710400432,
+    "userId": 1770578642926,
+    "title": "Stay Hydrated! 💧",
+    "body": "Time to drink some water. Staying hydrated helps with energy and focus!",
+    "icon": "/icons/water.png",
+    "data": {
+      "type": "water_reminder",
+      "timestamp": "2026-02-10T08:00:00.406Z",
+      "action": "log_water",
+      "url": "/log-water"
+    },
+    "sentAt": "2026-02-10T08:00:00.425Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T08:00:00.432Z"
+  }
+]

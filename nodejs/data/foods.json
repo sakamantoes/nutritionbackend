@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "food_group": "fruits",
+    "serving_size_g": 150,
+    "calories_per_100g": 52,
+    "protein_per_100g": 0.3,
+    "carbs_per_100g": 14,
+    "fat_per_100g": 0.2,
+    "fiber_per_100g": 2.4,
+    "sugar_per_100g": 10,
+    "sodium_per_100g": 1
+  },
+  {
+    "id": 2,
+    "name": "Grilled Chicken Breast",
+    "food_group": "meat",
+    "serving_size_g": 150,
+    "calories_per_100g": 165,
+    "protein_per_100g": 31,
+    "carbs_per_100g": 0,
+    "fat_per_100g": 3.6,
+    "fiber_per_100g": 0,
+    "sugar_per_100g": 0,
+    "sodium_per_100g": 74
+  }
+]

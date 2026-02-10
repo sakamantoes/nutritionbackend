@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "age": 30,
+    "weight": 75,
+    "height": 175,
+    "goal": "lose",
+    "activity_level": "moderate",
+    "daily_calorie_goal": 2000,
+    "createdAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith 2",
+    "email": "jane@example.com",
+    "password": "securepass",
+    "age": 28,
+    "weight": 65,
+    "height": 165,
+    "goal": "maintain",
+    "activity_level": "active",
+    "daily_calorie_goal": 2667,
+    "createdAt": "2024-01-16T14:20:00.000Z",
+    "updatedAt": "2026-02-10T08:29:06.653Z"
+  },
+  {
+    "id": 1770578642926,
+    "name": "Mike Johnson",
+    "email": "mike@example.com",
+    "password": "test123",
+    "age": 25,
+    "weight": 70,
+    "height": 180,
+    "goal": "gain",
+    "activity_level": "very_active",
+    "daily_calorie_goal": 2500,
+    "createdAt": "2026-02-08T19:24:02.926Z"
+  }
+]
