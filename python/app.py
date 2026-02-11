@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from nutrition_ml import NutritionMLModels
 from notification_service import notification_service
-import json
+
 import os
 import asyncio
 from datetime import datetime
@@ -521,6 +521,92 @@ def send_achievement():
             "message": "Achievement notification sent",
             "user_id": user_id,
             "achievement": achievement,
+            "status": "success"
+        })
+    
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/insights/nutrition', methods=['POST'])
+def get_nutrition_insights():
+    """Get nutrition insights based on user data and time range"""
+    try:
+        data = request.get_json()
+        
+        user_id = data.get('userId')
+        goal = data.get('goal', 'maintain')
+        time_range = data.get('timeRange', 'week')
+        
+        # Generate insights based on user goal
+        if goal == 'lose':
+            insights = {
+                "calorie_deficit_needed": 500,
+                "protein_target_multiplier": 1.2,
+                "carb_target_multiplier": 0.8,
+                "recommended_foods": [
+                    "Leafy greens", "Lean proteins", "Whole grains", "Berries"
+                ],
+                "foods_to_limit": [
+                    "Processed foods", "Sugary drinks", "Refined carbs"
+                ],
+                "exercise_recommendations": {
+                    "cardio_minutes": 150,
+                    "strength_sessions": 3,
+                    "intensity": "moderate_to_high"
+                }
+            }
+        elif goal == 'gain':
+            insights = {
+                "calorie_surplus_needed": 300,
+                "protein_target_multiplier": 1.6,
+                "carb_target_multiplier": 1.2,
+                "recommended_foods": [
+                    "Lean meats", "Dairy", "Nuts", "Complex carbs"
+                ],
+                "foods_to_limit": [],
+                "exercise_recommendations": {
+                    "cardio_minutes": 75,
+                    "strength_sessions": 4,
+                    "intensity": "high"
+                }
+            }
+        else:  # maintain
+            insights = {
+                "calorie_deficit_needed": 0,
+                "protein_target_multiplier": 1.0,
+                "carb_target_multiplier": 1.0,
+                "recommended_foods": [
+                    "Balanced meals", "Variety of vegetables", "Healthy fats"
+                ],
+                "foods_to_limit": [
+                    "Excessive sugar", "Trans fats"
+                ],
+                "exercise_recommendations": {
+                    "cardio_minutes": 120,
+                    "strength_sessions": 2,
+                    "intensity": "moderate"
+                }
+            }
+        
+        # Add time-specific insights
+        if time_range == 'day':
+            insights["focus"] = "Daily consistency"
+            insights["tip"] = "Track every meal for best results"
+        elif time_range == 'week':
+            insights["focus"] = "Weekly patterns"
+            insights["tip"] = "Look for patterns in your eating habits"
+        elif time_range == 'month':
+            insights["focus"] = "Monthly progress"
+            insights["tip"] = "Review your progress and adjust goals"
+        else:
+            insights["focus"] = "Long-term habits"
+            insights["tip"] = "Focus on sustainable changes"
+        
+        return jsonify({
+            "insights": insights,
+            "user_id": user_id,
+            "goal": goal,
+            "time_range": time_range,
             "status": "success"
         })
     

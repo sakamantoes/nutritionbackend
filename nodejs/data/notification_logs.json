@@ -359,5 +359,119 @@
       "failed": 0
     },
     "loggedAt": "2026-02-10T08:00:00.432Z"
+  },
+  {
+    "id": 1770732000833,
+    "userId": 1,
+    "title": "Nutrition Tip 💡",
+    "body": "Limit processed foods and opt for whole foods.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-10T14:00:00.811Z",
+      "tip": "Limit processed foods and opt for whole foods.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-10T14:00:00.818Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T14:00:00.833Z"
+  },
+  {
+    "id": 1770732000861,
+    "userId": 2,
+    "title": "Nutrition Tip 💡",
+    "body": "Limit processed foods and opt for whole foods.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-10T14:00:00.846Z",
+      "tip": "Limit processed foods and opt for whole foods.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-10T14:00:00.857Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T14:00:00.861Z"
+  },
+  {
+    "id": 1770732000891,
+    "userId": 1770578642926,
+    "title": "Nutrition Tip 💡",
+    "body": "Limit processed foods and opt for whole foods.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-10T14:00:00.868Z",
+      "tip": "Limit processed foods and opt for whole foods.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-10T14:00:00.878Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-10T14:00:00.891Z"
+  },
+  {
+    "id": 1770818400456,
+    "userId": 1,
+    "title": "Nutrition Tip 💡",
+    "body": "Practice mindful eating - eat slowly and enjoy your food.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-11T14:00:00.435Z",
+      "tip": "Practice mindful eating - eat slowly and enjoy your food.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-11T14:00:00.441Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-11T14:00:00.456Z"
+  },
+  {
+    "id": 1770818400488,
+    "userId": 2,
+    "title": "Nutrition Tip 💡",
+    "body": "Practice mindful eating - eat slowly and enjoy your food.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-11T14:00:00.463Z",
+      "tip": "Practice mindful eating - eat slowly and enjoy your food.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-11T14:00:00.484Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-11T14:00:00.488Z"
+  },
+  {
+    "id": 1770818400509,
+    "userId": 1770578642926,
+    "title": "Nutrition Tip 💡",
+    "body": "Practice mindful eating - eat slowly and enjoy your food.",
+    "icon": "/icons/tip.png",
+    "data": {
+      "type": "nutrition_tip",
+      "timestamp": "2026-02-11T14:00:00.492Z",
+      "tip": "Practice mindful eating - eat slowly and enjoy your food.",
+      "action": "view_tip"
+    },
+    "sentAt": "2026-02-11T14:00:00.502Z",
+    "deliveryResult": {
+      "sent": 0,
+      "failed": 0
+    },
+    "loggedAt": "2026-02-11T14:00:00.509Z"
   }
 ]

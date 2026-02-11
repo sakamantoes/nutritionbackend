@@ -11,6 +11,7 @@ const foodRoutes = require('./routes/foodRoutes');
 const exerciseRoutes = require('./routes/exerciseRoutes');
 const chatbotRoutes = require('./routes/chatbotRoutes');
 const notificationRoutes = require('./routes/notificationRoutes'); // NEW
+const analysisRoutes = require('./routes/analysisRoutes');
 
 // Import database utility
 const { initDatabase, getDatabase } = require('./utils/database');
@@ -31,6 +32,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/foods', foodRoutes);
 app.use('/api/exercises', exerciseRoutes);
 app.use('/api/chatbot', chatbotRoutes);
+app.use('/api/analysis', analysisRoutes);
 app.use('/api/notifications', notificationRoutes); // NEW
 
 // Health check

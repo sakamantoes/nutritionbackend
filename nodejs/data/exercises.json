@@ -1,72 +1,42 @@
 [
   {
-    "id": 1770579244809,
+    "id": 1770730849036,
     "userId": 1,
-    "exerciseName": "Running",
-    "duration": 30,
-    "caloriesBurned": 300,
-    "exerciseType": "cardio",
-    "timestamp": "2026-02-08T19:34:04.809Z",
-    "createdAt": "2026-02-08T19:34:04.869Z"
-  },
-  {
-    "id": 1770544671656,
-    "userId": 1,
-    "exerciseName": "Weight Lifting",
-    "duration": 45,
-    "caloriesBurned": 250,
-    "exerciseType": "strength",
-    "timestamp": "2026-02-08T09:57:51.656Z",
-    "createdAt": "2026-02-08T09:57:51.661Z"
-  },
-  {
-    "id": 1770579805420,
-    "userId": 2,
     "exerciseName": "Yoga",
     "duration": 60,
     "caloriesBurned": 180,
     "exerciseType": "flexibility",
-    "timestamp": "2026-02-08T19:43:25.420Z",
-    "createdAt": "2026-02-08T19:43:25.426Z"
+    "timestamp": "2026-02-10T13:40:49.036Z",
+    "createdAt": "2026-02-10T13:40:49.340Z"
   },
   {
-    "id": 1770710167225,
-    "userId": 1,
-    "exerciseName": "Running",
-    "duration": 30,
-    "caloriesBurned": 300,
-    "exerciseType": "cardio",
-    "timestamp": "2026-02-10T07:56:07.225Z",
-    "createdAt": "2026-02-10T07:56:07.232Z"
-  },
-  {
-    "id": 1770710216851,
+    "id": 1770760472110,
     "userId": 1,
     "exerciseName": "Weight Lifting",
     "duration": 45,
     "caloriesBurned": 225,
     "exerciseType": "strength",
-    "timestamp": "2026-02-10T07:56:56.851Z",
-    "createdAt": "2026-02-10T07:56:56.859Z"
+    "timestamp": "2026-02-10T21:54:32.110Z",
+    "createdAt": "2026-02-10T21:54:32.117Z"
   },
   {
-    "id": 1770713326010,
+    "id": 1770761452793,
     "userId": 2,
-    "exerciseName": "Running",
-    "duration": 30,
-    "caloriesBurned": 300,
-    "exerciseType": "cardio",
-    "timestamp": "2026-02-10T08:48:46.010Z",
-    "createdAt": "2026-02-10T08:48:46.014Z"
+    "exerciseName": "Weight Lifting",
+    "duration": 45,
+    "caloriesBurned": 225,
+    "exerciseType": "strength",
+    "timestamp": "2026-02-10T22:10:52.793Z",
+    "createdAt": "2026-02-10T22:10:52.823Z"
   },
   {
-    "id": 1770713748681,
+    "id": 1770818882345,
     "userId": 2,
-    "exerciseName": "Cycling",
-    "duration": 30,
-    "caloriesBurned": 240,
-    "exerciseType": "cardio",
-    "timestamp": "2026-02-10T08:55:48.681Z",
-    "createdAt": "2026-02-10T08:55:48.689Z"
+    "exerciseName": "Weight Lifting",
+    "duration": 45,
+    "caloriesBurned": 225,
+    "exerciseType": "strength",
+    "timestamp": "2026-02-11T14:08:02.346Z",
+    "createdAt": "2026-02-11T14:08:02.353Z"
   }
 ]
