@@ -49,6 +49,13 @@ app.get('/health', (req, res) => {
     });
 });
 
+app.get('/', (req,res)=> {
+    res.json({
+         status: 'OK', 
+        message: 'Nutrition Tracker API is running',
+    })
+})
+
 // Python API proxy endpoints (existing endpoints)
 // ... (keep all existing proxy endpoints) ...
 
