@@ -9,3 +9,4 @@ setuptools
 wheel
 gunicorn
 aiohttp
+schedule
